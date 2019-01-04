@@ -1,0 +1,41 @@
+pragma solidity ^0.4.18;
+contract vehicle1 {
+// requires prooftoVehicleOwner[_proofId]
+
+}
+
+function vehicle1() public payable {
+
+}
+
+struct Route{
+  uint route_ID;
+  uint256 timestamp;
+  string Start_Address;
+  string Start_City;
+  string Start_State;
+  string Destination_Address;
+  string Destination_City;
+  string Destination_State;
+  string Time_Start;
+  string Time_End;
+
+}
+
+struct User{
+  uint user_ID;
+  string first_name;
+  string last_name;
+  uint account_balance;
+
+}
+function RecordRoute(uin route_ID, uint256 timestamp) public constant returns (
+  uint,
+  uint256,
+  uint){
+  
+
+  return (
+    ev.route_ID,
+    ev.user_ID);
+}
